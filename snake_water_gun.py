@@ -5,6 +5,7 @@
 #do not create any fancy GUI.Use proper fuctions to check for win.
 
 import random
+
 list=['Snake','water','gun']
 Computer=random.choice(list)
 print("Welcome to the Snake,Water,gun game.")
@@ -47,10 +48,10 @@ for i in range(0,10):
        print("Wrong choice!")
     
     
-point=points[i]
+    point=points[i]
     #print(point[i])
 
-print(f"Your total points = {point-1}")
+print(f"Your total points = {point}")
 
 
 
